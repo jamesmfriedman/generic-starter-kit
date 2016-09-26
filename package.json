@@ -1,0 +1,27 @@
+{
+  "name": "generic-starter-kit",
+  "version": "1.0.0",
+  "description": "Generic Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV='DEV' && webpack-dev-server --inline --hot --port 8080",
+    "build": "export NODE_ENV='PRODUCTION' && webpack"
+  },
+  "author": "James Friedman",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "node-sass": "^3.10.0",
+    "normalize.css": "^4.2.0",
+    "postcss-loader": "^0.13.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
